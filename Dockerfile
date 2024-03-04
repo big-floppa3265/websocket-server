@@ -2,7 +2,7 @@ FROM python:3.11.7-alpine
 
 COPY . .
 
-RUN python -m pip install ./requirements.txt
+RUN python -m pip install -r ./requirements.txt
 
 EXPOSE 7000
 
